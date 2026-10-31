@@ -1,0 +1,45 @@
+@media (min-width: 700px) {
+    
+    main { 
+        padding: 0 2rem 2rem; 
+        max-width: 1200px; 
+        margin: 0 auto; 
+    }
+
+    header { 
+        padding: 0.75rem 2rem; 
+    }
+
+    #menu-button { 
+        display: none; 
+    }
+
+    #nav-list {
+        display: flex;
+    }
+
+    #nav-list a {
+        padding: 0.75rem 1rem;
+        border-bottom: none;
+    }
+
+    .top-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+        align-items: stretch;
+    }
+
+    .photo { 
+        margin-top: 0; 
+    }
+
+    .about { 
+        background: var(--bg); 
+    }
+
+    #course-cards {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.5rem;
+    }
+}
