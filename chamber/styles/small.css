@@ -20,6 +20,7 @@
   --bar: #0B120E;
   --link: #8CC9E3;
   --border: #3A4A40;
+  --heading: #8FD39A;
 }
 
 header {
@@ -27,8 +28,18 @@ header {
   flex-wrap: wrap;
   align-items: center;
   gap: 0.5rem;
+  font-size: 1.2rem;
   padding: 0.75rem 1rem 0;
   background: var(--panel);
+  border-bottom: 4px solid var(--primary);
+}
+
+header img {
+    border-radius: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    border: 2px solid #ffffff; 
+    width: 60px; 
+    height: 60px;
 }
 
 .brand {
@@ -73,11 +84,20 @@ nav {
 }
 
 #nav-list a:hover,
-#nav-list a:focus-visible { background: var(--secondary); }
-#nav-list a.active { background: var(--primary); }
+#nav-list a:focus-visible {
+    background: var(--secondary); 
+}
+
+#nav-list a.active { 
+    background: var(--primary); 
+}
 
 main { padding: 0 1rem 1rem; }
-h1 { font-size: 1.8rem; margin: 1rem 0; }
+h1 { 
+    font-size: 1.8rem; 
+    margin: 1rem 0; 
+    color: var(--heading);
+}
 
 .view-toggle { display: flex; justify-content: center; gap: 1rem; margin-bottom: 1rem; }
 
@@ -92,7 +112,12 @@ h1 { font-size: 1.8rem; margin: 1rem 0; }
   cursor: pointer;
 }
 
-.view-toggle button.active,
+.view-toggle button.active {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: #fff;
+}
+
 .view-toggle button:hover {
   background: var(--secondary);
   border-color: var(--secondary);
@@ -129,9 +154,9 @@ h1 { font-size: 1.8rem; margin: 1rem 0; }
 #members.list .address { display: block; }
 
 .level { display: inline-block; margin-top: 0.25rem; padding: 0.1rem 0.6rem; font-size: 0.75rem; font-weight: 700; border-radius: 99px; color: #fff; }
-.level-1 { background: #0E5A78; }
-.level-2 { background: #565E66; }
-.level-3 { background: #7A5A00; }
+.level-1 { background: var(--primary); }
+.level-2 { background: var(--secondary); }
+.level-3 { background: var(--accent); }
 
 footer {
   display: grid;

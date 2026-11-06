@@ -1,3 +1,22 @@
+const url = "data/members.json";
+const container = document.getElementById("members");
+const gridBtn = document.getElementById("grid");
+const listBtn = document.getElementById("list");
+
+const levels = { 1: "Member", 2: "Silver", 3: "Gold" };
+
+async function getMembers() {
+  try {
+    const response = await fetch(url);
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+    displayMembers(data.members);
+  } catch (error) {
+    console.error("Could not load members:", error);
+    container.textContent = "Sorry, the member list could not be loaded.";
+  }
+}
+
 function displayMembers(members) {
   container.innerHTML = "";
   members.forEach(member => {
@@ -21,3 +40,17 @@ function displayMembers(members) {
     container.appendChild(card);
   });
 }
+
+function setView(view) {
+  container.classList.toggle("grid", view === "grid");
+  container.classList.toggle("list", view === "list");
+  gridBtn.classList.toggle("active", view === "grid");
+  listBtn.classList.toggle("active", view === "list");
+  gridBtn.setAttribute("aria-pressed", view === "grid");
+  listBtn.setAttribute("aria-pressed", view === "list");
+}
+
+gridBtn.addEventListener("click", () => setView("grid"));
+listBtn.addEventListener("click", () => setView("list"));
+
+getMembers();

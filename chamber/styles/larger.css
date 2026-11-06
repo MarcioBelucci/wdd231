@@ -14,7 +14,10 @@
   }
   #nav-list a:hover,
   #nav-list a:focus-visible { background: none; border-bottom-color: var(--secondary); }
-  #nav-list a.active { background: none; border-bottom-color: var(--text); }
+  #nav-list a.active { 
+    background: none; 
+    border-bottom-color: var(--primary); 
+  }
 
   main { padding: 0 2rem 2rem; max-width: 1200px; margin: 0 auto; }
 
