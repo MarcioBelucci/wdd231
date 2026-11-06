@@ -1,0 +1,11 @@
+{
+  "members": [
+    { "name": "Engenho Café & Cia", "tagline": "Café artesanal e torrefação", "address": "Rua do Porto, 120, Piracicaba, SP", "phone": "(19) 3400-1001", "email": "contato@engenhocafe.example", "website": "https://www.example.com/engenho-cafe", "image": "engenho-cafe.webp", "level": 3 },
+    { "name": "Canavial Tecnologia", "tagline": "Software e suporte de TI", "address": "Av. Independência, 800, Piracicaba, SP", "phone": "(19) 3400-1002", "email": "ola@canavialtech.example", "website": "https://www.example.com/canavial-tech", "image": "canavial-tech.webp", "level": 3 },
+    { "name": "Salto Turismo", "tagline": "Passeios e roteiros pela região", "address": "Rua Moraes Barros, 450, Piracicaba, SP", "phone": "(19) 3400-1003", "email": "reservas@saltoturismo.example", "website": "https://www.example.com/salto-turismo", "image": "salto-turismo.webp", "level": 2 },
+    { "name": "Terra Roxa Orgânicos", "tagline": "Do produtor para a sua mesa", "address": "Estrada Rural km 5, Piracicaba, SP", "phone": "(19) 3400-1004", "email": "vendas@terraroxa.example", "website": "https://www.example.com/terra-roxa", "image": "terra-roxa.webp", "level": 2 },
+    { "name": "Rio Dourado Contabilidade", "tagline": "Consultoria para pequenos negócios", "address": "Rua Pedro de Toledo, 90, Piracicaba, SP", "phone": "(19) 3400-1005", "email": "atendimento@riodourado.example", "website": "https://www.example.com/rio-dourado", "image": "rio-dourado.webp", "level": 1 },
+    { "name": "Tijolo Vivo Arquitetura", "tagline": "Projetos e reformas", "address": "Av. Carlos Botelho, 300, Piracicaba, SP", "phone": "(19) 3400-1006", "email": "projetos@tijolovivo.example", "website": "https://www.example.com/tijolo-vivo", "image": "tijolo-vivo.webp", "level": 1 },
+    { "name": "Pamonha da Colina", "tagline": "Pamonhas e doces caseiros", "address": "Rua Boa Morte, 215, Piracicaba, SP", "phone": "(19) 3400-1007", "email": "pedidos@pamonhacolina.example", "website": "https://www.example.com/pamonha-colina", "image": "pamonha-colina.webp", "level": 1 }
+  ]
+}

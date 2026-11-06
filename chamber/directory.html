@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory | Piracicaba Chamber of Commerce</title>
+    <meta name="description" content="Browse the member businesses of the Piracicaba Chamber of Commerce in grid or list view.">
+    <meta name="author" content="Marcio Augusto de Carvalho Belucci">
+
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+    <meta property="og:title" content="Directory | Piracicaba Chamber of Commerce">
+    <meta property="og:description" content="Browse the member businesses of the Piracicaba Chamber of Commerce.">
+    <meta property="og:image" content="https://marciobelucci.github.io/wdd231/chamber/images/og-image.webp">
+    <meta property="og:url" content="https://marciobelucci.github.io/wdd231/chamber/directory.html">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/theme.js" defer></script>
+</head>
+<body>
+    <header>
+        <a class="brand" href="index.html">
+            <img src="images/logo.svg" alt="" width="48" height="48">
+            <span>Piracicaba Chamber of Commerce</span>
+        </a>
+
+        <button id="theme-toggle" aria-label="Toggle dark mode">&#9680;</button>
+        <button id="menu-button" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+
+        <nav aria-label="Main">
+            <ul id="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html" class="active" aria-current="page">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Directory</h1>
+
+        <div class="view-toggle">
+            <button id="grid" class="active" aria-pressed="true">Grid</button>
+            <button id="list" aria-pressed="false">List</button>
+        </div>
+
+        <section id="members" class="grid" aria-live="polite"></section>
+    </main>
+
+    <footer>
+        <div class="contact">
+            <p><strong>Piracicaba Chamber of Commerce</strong></p>
+            <p>Rua Exemplo, 100</p>
+            <p>Piracicaba, SP, Brazil</p>
+            <p><a href="mailto:contato@example.com">contato@example.com</a></p>
+            <p><a href="tel:+551934000000">(19) 3400-0000</a></p>
+        </div>
+
+        <div class="social">
+            <a href="https://www.youtube.com/" aria-label="YouTube"><img src="images/youtube.svg" alt="" width="40" height="40"></a>
+            <a href="https://x.com/" aria-label="X"><img src="images/x.svg" alt="" width="40" height="40"></a>
+            <a href="https://www.linkedin.com/" aria-label="LinkedIn"><img src="images/linkedin.svg" alt="" width="40" height="40"></a>
+        </div>
+
+        <div class="dev-info">
+            <p>WDD231 Class Project</p>
+            <p>Marcio Augusto de Carvalho Belucci</p>
+            <p>&copy; <span id="currentyear"></span> Piracicaba Chamber of Commerce</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>
