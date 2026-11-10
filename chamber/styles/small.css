@@ -283,6 +283,10 @@ footer a {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+[data-theme="dark"] .social img {
+  background-color: var(--on-dark);
+}
+
 [data-theme="dark"] .view-toggle button.active {
   background: #A8D5A2;
   border-color: #A8D5A2;
