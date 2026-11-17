@@ -1,4 +1,4 @@
-const API_KEY = "SUA_CHAVE_AQUI";
+const API_KEY = "e72edbbf7af292431492c8dea997f4e2";
 const LAT = -22.7253;
 const LON = -47.6492;
 
