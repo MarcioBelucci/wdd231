@@ -432,3 +432,172 @@ footer a {
 .spotlight-card p { 
   margin: 0.25rem 0; 
 }
+
+/* ---------- Form ---------- */
+.join-layout { 
+  display: grid; 
+  gap: 1.5rem; 
+  grid-template-columns: 1fr; 
+}
+
+.join-form {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.join-form label { 
+  display: grid; 
+  gap: 0.25rem; 
+  font-weight: 600; 
+}
+
+.join-form input,
+.join-form select,
+.join-form textarea {
+  width: 100%;
+  padding: 0.6rem;
+  font: inherit;
+  font-weight: 400;
+  background: var(--bg);
+  color: var(--text);
+  border: 2px solid var(--border);
+  border-radius: 4px;
+}
+
+.join-form input:focus-visible,
+.join-form select:focus-visible,
+.join-form textarea:focus-visible {
+  outline: 3px solid var(--secondary);
+  outline-offset: 1px;
+}
+
+.join-form input:user-invalid { 
+  border-color: var(--accent); 
+}
+
+.join-form button {
+  padding: 0.75rem 1.5rem;
+  font: inherit;
+  font-weight: 700;
+  background: var(--cta-bg);
+  color: var(--cta-text);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* ---------- Cards ---------- */
+.levels { 
+  display: grid; 
+  gap: 1rem; 
+  align-content: start; 
+}
+
+.levels h2 { 
+  margin: 0; 
+  color: var(--heading); 
+}
+
+.level-card {
+  padding: 1rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-top: 6px solid var(--border);
+  border-radius: 8px;
+  opacity: 0;
+  animation: card-in 0.7s ease-out forwards;
+}
+
+.level-card h3 { 
+  margin: 0 0 0.5rem; 
+}
+
+.level-card a { 
+  color: var(--link); 
+  font-weight: 600; 
+}
+
+.level-card.np { 
+  border-top-color: var(--primary); 
+  animation-delay: 0.1s; 
+}
+
+.level-card.bronze { 
+  border-top-color: var(--accent); 
+  animation-delay: 0.3s; 
+}
+
+.level-card.silver { 
+  border-top-color: var(--secondary); 
+  animation-delay: 0.5s; 
+}
+
+.level-card.gold { 
+  border-top-color: var(--heading); 
+  animation-delay: 0.7s; 
+}
+
+@keyframes card-in {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .level-card { animation: none; opacity: 1; }
+}
+
+/* ---------- Modals ---------- */
+dialog {
+  max-width: min(90vw, 28rem);
+  padding: 1.5rem;
+  background: var(--card);
+  color: var(--text);
+  border: 2px solid var(--border);
+  border-radius: 8px;
+}
+
+dialog::backdrop { 
+  background: rgba(0, 0, 0, 0.6); 
+}
+
+dialog h2 { 
+  margin-top: 0; 
+  color: var(--heading); 
+}
+
+.close-modal {
+  padding: 0.5rem 1.25rem;
+  font: inherit;
+  font-weight: 700;
+  background: var(--panel);
+  color: var(--text);
+  border: 2px solid var(--border);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* ---------- Thank you ---------- */
+.summary { 
+  padding: 1rem; 
+  background: var(--card); 
+  border: 1px solid var(--border); 
+  border-radius: 8px; 
+}
+
+.summary h2 { 
+  margin-top: 0; 
+  color: var(--heading); 
+}
+
+.summary dt { 
+  font-weight: 700; 
+}
+
+.summary dd { 
+  margin: 0 0 0.75rem; 
+  overflow-wrap: anywhere; 
+}
