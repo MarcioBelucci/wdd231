@@ -656,7 +656,7 @@ dialog h2 {
 }
 
 .place2 { 
-  grid-area: place2; 
+  grid-area: place7; 
 }
 
 .place3 { 
@@ -675,7 +675,7 @@ dialog h2 {
 }
 
 .place7 { 
-  grid-area: place7; 
+  grid-area: place2; 
 }
 
 .place8 { 

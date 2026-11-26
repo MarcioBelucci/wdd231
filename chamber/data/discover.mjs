@@ -2,49 +2,49 @@ export const places = [
   {
     "name": "Engenho Central",
     "address": "Av. Maurice Allain, 454, Piracicaba, SP",
-    "description": "Former sugar mill turned cultural center, with events, restaurants and green areas by the river.",
-    "image": "engenho-central.webp"
+    "description": "Founded in 1881 by the Baron of Rezende, this historic 19th-century sugarcane mill complex on the banks of the Piracicaba River has been transformed into the city's premier cultural park.",
+    "image": "engenho.webp"
   },
   {
     "name": "Salto do Rio Piracicaba",
-    "address": "Rua do Porto, Centro, Piracicaba, SP",
-    "description": "The waterfall that gave the city its name, where the river drops through the heart of town.",
-    "image": "salto-piracicaba.webp"
+    "address": "Vila Rezende, Piracicaba, SP",
+    "description": "The iconic natural waterfall that gave the city its Tupi-Guarani name, meaning 'place where the fish stops.' Located right in the heart of town, it is famous for the annual Piracema fish migration spectacle and offers dramatic views of the river's rapids.",
+    "image": "salto.webp"
   },
   {
     "name": "Rua do Porto",
     "address": "Rua do Porto, Centro, Piracicaba, SP",
-    "description": "Riverside area with bars, restaurants and walkways, popular for evening gatherings.",
+    "description": "Piracicaba's most traditional gastronomic and leisure corridor along the riverbank. Known for its lively atmosphere, historic boatman heritage, and open-air restaurants serving the famous peixe na telha (fish roasted on a clay tile), it is a favorite gathering spot day and night.",
     "image": "rua-do-porto.webp"
   },
   {
-    "name": "Casa do Povoador",
-    "address": "Rua do Porto, Centro, Piracicaba, SP",
-    "description": "Historic house by the river that tells the story of the city's early settlers.",
-    "image": "casa-do-povoador.webp"
+    "name": "Estação da Paulista",
+    "address": "Av. Dr. Paulo de Moraes, 1580 - Paulista, Piracicaba, SP",
+    "description": "A preserved early-20th-century railway station built by the Companhia Paulista de Estradas de Ferro. Today, the former freight depot operates as a vibrant community park and cultural center featuring walking tracks, outdoor fitness areas, and spaces for local fairs and art events.",
+    "image": "estacao.webp"
   },
   {
     "name": "Museu da Água",
-    "address": "Centro, Piracicaba, SP",
-    "description": "A museum about how water shaped the city, its industry and its daily life.",
+    "address": "Av. Beira Rio, 448 - Centro, Piracicaba, SP",
+    "description": "Housed in the city's first water pumping station from 1887 right beside the river falls, this museum showcases Piracicaba's industrial and environmental relationship with water.",
     "image": "museu-da-agua.webp"
   },
   {
     "name": "ESALQ/USP",
     "address": "Av. Pádua Dias, 11, Piracicaba, SP",
-    "description": "The Luiz de Queiroz agricultural college, a national reference in agronomy research.",
+    "description": "Founded in 1901, the Luiz de Queiroz College of Agriculture is one of Latin America's leading centers for agronomy and environmental research. Its sprawling, tree-lined campus features historic neoclassical buildings, botanical gardens, and open green spaces popular for weekend walks.",
     "image": "esalq.webp"
   },
   {
     "name": "Catedral de Santo Antônio",
     "address": "Praça José Bonifácio, Centro, Piracicaba, SP",
-    "description": "Landmark church in the city's central square, surrounded by shops and cafés.",
+    "description": "Inaugurated in 1959 in neo-Romanesque style, this twin-towered landmark is the mother church of the Diocese of Piracicaba. Overlooking the bustling Praça José Bonifácio in the city center, it stands out for its stained-glass windows, pipe organ, and architectural grandeur.",
     "image": "catedral.webp"
   },
   {
     "name": "Parque do Mirante",
-    "address": "Centro, Piracicaba, SP",
-    "description": "A viewpoint over the river and the falls, ideal for a quiet walk at sunset.",
+    "address": "Vila Rezende, Piracicaba, SP",
+    "description": "Perched on the elevated right bank of the Piracicaba River, this scenic park offers panoramic viewpoints overlooking the Salto waterfalls and the historic Rua do Porto across the water. It is an ideal spot for photography, sunset walks, and watching the river's rapids.",
     "image": "parque-do-mirante.webp"
   }
 ];
