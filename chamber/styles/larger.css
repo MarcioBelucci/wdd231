@@ -95,7 +95,11 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
       "place1 place2 place2 place3"
-      "place4 place2 place2 place5"
+      "place4 place4 place5 place5"
       "place6 place7 place7 place8";
+  }
+
+  .place2, .place4, .place5, .place7 figure{
+    display: flex;
   }
 }
