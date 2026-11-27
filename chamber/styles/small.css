@@ -602,7 +602,7 @@ dialog h2 {
   overflow-wrap: anywhere; 
 }
 
-/* ---------- Mensagem de visita ---------- */
+/* ---------- Visit message ---------- */
 .visit-message {
   display: flex;
   justify-content: space-between;
@@ -635,7 +635,7 @@ dialog h2 {
   cursor: pointer;
 }
 
-/* ---------- Grid de cards: telas pequenas ---------- */
+/* ---------- Grid cards ---------- */
 #discover-cards {
   display: grid;
   gap: 1rem;
@@ -699,19 +699,19 @@ dialog h2 {
 }
 
 .place-card figure {
+  width: 100%;
+  max-width: 300px;
   margin: 0;
   overflow: hidden;
   border-radius: 6px;
-  aspect-ratio: 3 / 2;
-  object-fit: cover;
 }
 
 .place-card img {
   display: block;
   width: 100%;
-  max-width: 300px;
   height: auto;
-  margin: 0 auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
 }
 
 .place-card address { 

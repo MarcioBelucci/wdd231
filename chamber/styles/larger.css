@@ -80,6 +80,9 @@
       "place7 place8";
   }
 
+}
+
+@media (min-width: 641px) and (hover: hover) {
   .place-card img {
     transition: transform 0.4s ease, filter 0.4s ease;
   }
@@ -90,7 +93,7 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   #discover-cards {
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
@@ -99,7 +102,4 @@
       "place6 place7 place7 place8";
   }
 
-  .place2, .place4, .place5, .place7 figure{
-    display: flex;
-  }
 }
